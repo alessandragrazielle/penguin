@@ -12,11 +12,6 @@
     }
 } /*em telas de no máximo 350px, o tamanho do pinguin diminui para 200px e sua cor altera para preta*/
 
-h3 {
-    font-family: monospace;
-    text-align: center;
-}
-
 .penguin {
     position: relative;
     margin: auto;
@@ -53,7 +48,7 @@ h3 {
     border-radius: 30% 30% 120% 30%;
     transform: rotate(130deg);
     z-index: -1;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-name: wave;
     animation-iteration-count: infinite;
     transform-origin:0% 0%;
